@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "qsbi-sqlapi"
+version = "0.1.0"
+description = ""
+authors = ["giacinti <philippe@giacinti.com>"]
+readme = "README.md"
+packages = [{include = "qsbi"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+qsbi-api = {path = "../qsbi.api", develop = true}
+qsbi-crud-sql = {path = "../qsbi.crud.sql", develop = true}
+gunicorn = "^20.1.0"
+
+
+[tool.poetry.group.dev.dependencies]
+uvicorn = "^0.18.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
