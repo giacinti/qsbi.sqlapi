@@ -11,10 +11,12 @@ python = "^3.9"
 qsbi-api = {path = "../qsbi.api", develop = true}
 qsbi-crud-sql = {path = "../qsbi.crud.sql", develop = true}
 gunicorn = "^20.1.0"
+python-multipart = "^0.0.5"
 
 
 [tool.poetry.group.dev.dependencies]
 uvicorn = "^0.18.3"
+ipython = "^8.5.0"
 
 [build-system]
 requires = ["poetry-core"]
