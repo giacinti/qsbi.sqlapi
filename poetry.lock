@@ -477,6 +477,7 @@ fastapi = "^0.85.0"
 passlib = {version = "^1.7.4", extras = ["bcrypt"]}
 pydantic = "^1.10.2"
 python-jose = {version = "^3.3.0", extras = ["cryptography"]}
+python-multipart = "^0.0.5"
 
 [package.source]
 type = "directory"
@@ -484,7 +485,7 @@ url = "../qsbi.api"
 
 [[package]]
 name = "qsbi-backend-sql"
-version = "0.2.0"
+version = "0.3.0"
 description = "sqlalchemy backend for qsbi"
 category = "main"
 optional = false
