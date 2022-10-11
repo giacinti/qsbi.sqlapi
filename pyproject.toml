@@ -19,6 +19,8 @@ python-multipart = "^0.0.5"
 uvicorn = "^0.18.3"
 ipython = "^8.5.0"
 ipykernel = "^6.16.0"
+flake8 = "^5.0.4"
+mypy = "^0.982"
 
 [build-system]
 requires = ["poetry-core"]
